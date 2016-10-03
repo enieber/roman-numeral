@@ -1,6 +1,6 @@
 defmodule RomanNumeral do
 
-  @numerals [{500, "D"}, {100, "C"}, {50, "L"}, {10, "X"}, {9, "IX"}, {5, "V"}, {4, "IV"}, {1, "I"}]
+  @numerals [{1000, "M"}, {500, "D"}, {100, "C"}, {50, "L"}, {10, "X"}, {9, "IX"}, {5, "V"}, {4, "IV"}, {1, "I"}]
 
   def converts(number), do: converts(number, @numerals)
 
