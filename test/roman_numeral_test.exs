@@ -21,4 +21,26 @@ defmodule RomanNumeralTest do
   test "converts 4" do
     assert RomanNumeral.converts(4) == "IV"
   end
+
+  test "converts 5" do
+    assert RomanNumeral.converts(5) == "V"
+  end
+
+  test "converts 6" do
+    assert RomanNumeral.converts(6) == "VI"
+  end
+
+  test "converts 7" do
+    assert RomanNumeral.converts(7) == "VII"
+
+  end
+
+  test "converts 8" do
+    assert RomanNumeral.converts(8) == "VIII"
+  end
+
+  test "converts 9" do
+    assert RomanNumeral.converts(9) == "VX"
+  end
+
 end
