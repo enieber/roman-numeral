@@ -43,4 +43,7 @@ defmodule RomanNumeralTest do
     assert RomanNumeral.converts(9) == "VX"
   end
 
+  test "converts 10" do
+    assert RomanNumeral.converts(10) == "X"
+  end
 end

@@ -16,6 +16,10 @@ defmodule RomanNumeral do
     "VX"
   end
 
+  def converts(number) when number == 10 do
+    "X"
+  end
+
   def converts(number) when number > 5  and number <= 8 do
    "V" <> converts(number - 5)
   end
